@@ -1,0 +1,26 @@
+header {
+    font-weight: 700;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    border: 1px solid red;
+    grid-area: 1 / 2 / 2 / 6;
+}
+
+nav {
+    border: 1px solid green;
+    grid-area: 1 / 1 / 6 / 2;
+}
+
+main {
+    border: 1px solid blue;
+    grid-area: 2 / 2 / 6 / 6;
+}
