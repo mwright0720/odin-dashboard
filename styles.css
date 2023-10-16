@@ -1,10 +1,12 @@
+
+
 header {
     font-weight: 700;
 }
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(7, 1fr);
     grid-template-rows: repeat(5, 1fr);
     width: 100vw;
     height: 100vh;
@@ -12,15 +14,46 @@ header {
 
 header {
     border: 1px solid red;
-    grid-area: 1 / 2 / 2 / 6;
+    grid-area: 1 / 2 / 2 / 8;
+    background: #D7263D
+    
 }
 
 nav {
     border: 1px solid green;
     grid-area: 1 / 1 / 6 / 2;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    background: #00485C;
+    color: white;
+    
+    
 }
 
+nav>.grid-item {
+    padding: 2em;
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.grid-item>ul {
+    margin-bottom: 4em;
+}
+
+li {
+    margin-bottom: 1.5em;
+}
+.important-text {
+    font-weight: 800;
+    font-size: 32px;
+}
 main {
     border: 1px solid blue;
-    grid-area: 2 / 2 / 6 / 6;
+    background: #FDFFF7;
+    grid-area: 2 / 2 / 6 / 8;
 }
