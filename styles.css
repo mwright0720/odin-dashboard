@@ -15,7 +15,8 @@ header {
 header {
     border: 1px solid red;
     grid-area: 1 / 2 / 2 / 8;
-    background: #D7263D
+    background: #F7CFD5;
+    display: grid;
     
 }
 
