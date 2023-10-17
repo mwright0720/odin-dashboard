@@ -17,6 +17,9 @@ header {
     grid-area: 1 / 2 / 2 / 8;
     background: #F7CFD5;
     display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr;
+    
     
 }
 
@@ -34,6 +37,11 @@ nav {
 nav>.grid-item {
     padding: 2em;
     font-size: 20px;
+}
+
+header>.grid-item {
+    padding: 1em;
+    font-size: 16px;
 }
 
 ul {
@@ -57,4 +65,14 @@ main {
     border: 1px solid blue;
     background: #FDFFF7;
     grid-area: 2 / 2 / 6 / 8;
+}
+
+.profile {
+    width: 4em;
+    height: 4em;
+}
+
+.larger-profile {
+    width: 6em;
+    height: 6em;
 }
