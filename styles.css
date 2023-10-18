@@ -12,6 +12,11 @@ header {
     height: 100vh;
 }
 
+.right {
+    text-align: right;
+    margin-right: 10em;
+}
+
 header {
     border: 1px solid red;
     grid-area: 1 / 2 / 2 / 8;
@@ -75,4 +80,26 @@ main {
 .larger-profile {
     width: 6em;
     height: 6em;
+}
+
+.search {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2em;
+}
+
+.action-btn {
+    background: #8158ec;
+    color: white;
+    font-size: 16px;
+    
+}
+
+.larger-username {
+    font-size: 30px;
+    font-weight: bold;
 }
