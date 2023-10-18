@@ -70,6 +70,7 @@ main {
     border: 1px solid blue;
     background: #FDFFF7;
     grid-area: 2 / 2 / 6 / 8;
+    display: grid;
 }
 
 .profile {
@@ -102,4 +103,26 @@ main {
 .larger-username {
     font-size: 30px;
     font-weight: bold;
+}
+
+
+
+.quest-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 80%;
+    color: white;
+    gap: 2.5em;
+}
+
+.quest {
+    background: #575757;
+    font-size: 24px;
+    font-weight: italic;
+    padding: .5em;
+}
+
+.main-container {
+    display: flex;
 }
